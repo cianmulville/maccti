@@ -1,0 +1,2 @@
+# maccti
+Wordpress theme
