@@ -23,7 +23,7 @@
 
 <body id="<?php is_front_page()? "homepage": "" ?>">
     <header>
-    
+
         <nav class="navbar navbar-expand-md navbar-fixed-top bg-nav">
             <div class="container">
                 <a class="navbar-brand" href="/">
@@ -53,4 +53,17 @@
             </div>
 
         </nav>
+        <?php if(is_front_page()) {
+            ?>
+            <div class="main-banner">
+            <div class="overlay container">
+                <div class="overlay-contents">
+                    <h3><?php bloginfo('description'); ?></h3>
+                    <!-- <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/watch-the-demo.png" alt="Button"> -->
+                </div>
+
+            </div>
+        </div>
+
+        } ?>
     </header>
