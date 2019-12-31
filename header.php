@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
 </head>
 
-<body id="<?php is_front_page()? "homepage": "" ?>">
+<body id="<?php if(is_front_page()) { echo "homepage"; } ?>">
     <header>
 
         <nav class="navbar navbar-expand-md navbar-fixed-top bg-nav">
