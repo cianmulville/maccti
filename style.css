@@ -37,6 +37,9 @@ header {
     display: flex;
     flex-direction: column;
 }
+.eb-scroll-left, .eb-scroll-right {
+    display:none;
+}
 #homepage header {
     height:95vh;
 }
