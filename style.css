@@ -17,13 +17,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 * {
     font-weight:normal;
-    font-family:'Proxima Nova', 'sans-serif';
+    font-family:proxima-nova, 'sans-serif';
 }
 a:hover {
     text-decoration:none;
 }
 body {
-    font-family:'Proxima Nova', 'sans-serif';
+    font-family:proxima-nova, 'sans-serif';
     font-weight: normal;
     display:flex;
     flex-direction: column;
