@@ -26,7 +26,7 @@ $template_loader = new EbTemplateLoader(
 <?php get_header(); ?>
     <main>
         
-        <div class="home-banner bg-light">
+        <div class="bg-light">
             <div class="container">
             <?php $template_loader->wpGetTemplate('global/wrapper-start.php', $wrapper_args); ?>
 

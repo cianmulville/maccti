@@ -31,6 +31,29 @@ body {
     min-width:100%;
 }
 
+img.attachment-course_archive.size-course_archive.wp-post-image {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+}
+
+.wdm-course-image {
+    width: 300px;
+}
+
+a.wdm-course-thumbnail {
+    width: 300px;
+    display: flex;
+    flex-flow: column;
+    background-color: #500151;
+    border-radius: 8px;
+}
+
+.wdm-caption {
+    padding: 1em;
+    color: white;
+}
+
 header {
     background: linear-gradient(to bottom, #660066, #32214c 90%);
     background-repeat: no-repeat;
