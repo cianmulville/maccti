@@ -45,7 +45,7 @@ $template_loader = new EbTemplateLoader(
                 ?>
                 <?php do_action('eb_after_single_course'); ?>
 
-                <?php $template_loader->wpGetTemplate('global/wrapper-end.php', $wrapper_args); ?>?>
+                <?php $template_loader->wpGetTemplate('global/wrapper-end.php', $wrapper_args); ?>
 
             </div>
 
