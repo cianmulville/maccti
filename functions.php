@@ -14,3 +14,5 @@ function add_maccti_scripts() {
     wp_enqueue_script( 'bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array ( 'popper', 'jquery' ), 1.1, true);
     wp_enqueue_script( 'custom', get_template_directory_uri() . '/js/script.js', array('bootstrapjs', 'popper', 'jquery'), 1.1, true);
 }
+
+add_action('wp_enqueue_scripts', 'add_maccti_scripts');
