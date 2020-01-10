@@ -518,6 +518,15 @@ footer {
 .product.type-product img {
     max-width:100%;
 }
+.woocommerce .col1, .woocommerce .col2 {
+    max-width:48%; 
+}
+
+.woocommerce .form-row {
+    display:flex;
+    flex-flow:column;
+}
+
 @media(min-width:768px) {
     .nav-item:not(:last-of-type) .nav-link::after {
         content: '';
