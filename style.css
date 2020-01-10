@@ -514,6 +514,10 @@ footer {
         padding-left:15px;
     }
 }
+
+.product.type-product img {
+    max-width:100%;
+}
 @media(min-width:768px) {
     .nav-item:not(:last-of-type) .nav-link::after {
         content: '';
