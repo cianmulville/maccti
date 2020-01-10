@@ -22,6 +22,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 a:hover {
     text-decoration:none;
 }
+
 body {
     font-family:proxima-nova, 'sans-serif';
     font-weight: normal;
@@ -29,6 +30,24 @@ body {
     flex-direction: column;
     min-height:100vh;
     min-width:100%;
+}
+
+p.form-row.form-row-wide {
+    display: flex;
+    flex-flow: column;
+    width: 200px;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+form.register {
+    width: 200px;
+    margin-bottom: 1em;
+}
+
+p.login-link {
+    margin-top: 1em;
+    text-align: left;
 }
 
 img.attachment-course_archive.size-course_archive.wp-post-image {
