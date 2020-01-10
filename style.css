@@ -518,7 +518,7 @@ footer {
 .product.type-product img {
     max-width:100%;
 }
-.woocommerce .col1, .woocommerce .col2 {
+.woocommerce .col-1, .woocommerce .col-2 {
     max-width:48%; 
 }
 
