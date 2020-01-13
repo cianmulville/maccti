@@ -97,8 +97,8 @@
                         <!-- <a href="#" class="text-center m-auto">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/buy-green.png" alt="Buy Now button">
                         </a> -->
-                        <a href="/contact" class="">Register interest
-                            <i class="fas fa-arrow-right"></i>
+                        <a href="/courses/responsible-vendor-training-program/" class="">Enrol Now
+                            <i class="fa fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -118,29 +118,10 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/buy-purple.png" alt="Buy Now button">
                         </a> -->
                         <a href="/contact" class="">Register interest
-                            <i class="fas fa-arrow-right"></i>
+                            <i class="fa fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
-                <div class="price-box-single col-third">
-                    <h5 class="box-top">Operational Comms, Convoy Discipline &amp; Route Selection</h5>
-                    <div class="price">
-                        <span>Request price</span>
-                    </div>
-                    <div class="price-course-features">
-                        <ul class="list-check">
-                            <li>Customized</li>
-                            <li>Delivered in person</li>
-                            <li>Special Forces Experts</li>
-                            <li>Elite training for high risk industry</li>
-                        </ul>
-                        <p>* In partnership with Apex Consilium</p>
-                        <a href="/contact/" class="">Register interest
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-
             </div>
         </div>
         <div class="home-banner bg-white">
