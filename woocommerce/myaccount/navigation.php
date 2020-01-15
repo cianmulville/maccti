@@ -6,9 +6,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 do_action( 'woocommerce_before_account_navigation' );
 $user = wp_get_current_user();
-$userName = $user->user_firstname;
 ?>
-<h1>Welcome, <?php echo $userName; ?></h1>
+<h1>Welcome, <?php echo $user->user_firstname; ?></h1>
 <nav class="woocommerce-MyAccount-navigation">
         <ul>
                 <?php foreach ( wc_get_account_menu_items() as $endpoint => $label ) : ?>
