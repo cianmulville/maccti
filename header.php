@@ -35,7 +35,7 @@
                             <a class="nav-link" href="#">What You Learn</a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link scroll" href="#courses">Courses</a>
+                            <a class="nav-link scroll" href="/#courses">Courses</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="#">What You Need</a>
