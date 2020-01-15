@@ -542,6 +542,7 @@ div#wpcf7-f59-p10-o1 {
 
 div#wpcf7-f59-p10-o1 p {
     width: 100%;
+    max-width:100%;
     /* flex: 3; */
 }
 
