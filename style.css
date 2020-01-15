@@ -525,7 +525,7 @@ footer {
     .nav-item:not(:last-of-type) .nav-link::after {
         content: '';
         margin-left: 15px;
-        border-right: 1px solid white;
+        /* border-right: 1px solid white; */
     }
 
 }
