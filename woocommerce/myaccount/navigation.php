@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 do_action( 'woocommerce_before_account_navigation' );
 $user = wp_get_current_user();
-$userName = $user->firstname;
+$userName = $user->user_firstname;
 ?>
 <h1>Welcome, <?php echo $userName; ?></h1>
 <nav class="woocommerce-MyAccount-navigation">
