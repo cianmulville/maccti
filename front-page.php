@@ -85,7 +85,7 @@
                 <div class="price-box-single col-third">
                     <h5 class="box-top">Responsible Vendor Program</h5>
                     <div class="price">
-                        <span>Coming soon</span>
+                        <span>Available Now</span>
                     </div>
                     <div class="price-course-features">
                         <ul class="list-check">
