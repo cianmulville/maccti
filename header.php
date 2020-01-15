@@ -67,7 +67,7 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="/my-account/">My Account</a>
                             <a class="dropdown-item" href="/eb-my-courses/">My Courses</a>
-                            <a class="dropdown-item" href="/my-account/customer-logout/">Log out</a>
+                            <a class="dropdown-item" href="/?customer-logout=true">Log out</a>
                             </div>
                         </li> <?php
                         } else {
