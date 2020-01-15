@@ -52,10 +52,10 @@
                             <i class="fa fa-user"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <h4>Hello, <?php echo $user->user_firstname; ?>!</h4>
+                            <h6 class="dropdown-item text-gray">Hello, <?php echo $user->user_firstname; ?>!</h6>
+                            <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="/my-account/">My Account</a>
                             <a class="dropdown-item" href="/eb-my-courses/">My Courses</a>
-                            <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="/my-account/customer-logout/">Log out</a>
                             </div>
                         </li> <?php
