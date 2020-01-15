@@ -59,7 +59,13 @@
                             <a class="dropdown-item" href="/my-account/customer-logout/">Log out</a>
                             </div>
                         </li> <?php
-                        } ?>
+                        } else {
+                            ?>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/my-account/">Log In</a>
+                            </li>
+                            <?php
+                        }?>
                     </ul>
                 </div>
             </div>
