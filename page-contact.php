@@ -2,7 +2,7 @@
     <main class="bg-light">
         <div class="home-banner">
             <div class="container">
-                <h1>Contact Us</h1>
+                <h1 id="contact">Contact Us</h1>
 
                 <form id="contact-form" method="POST" action="/contact.php" role="form">
 
