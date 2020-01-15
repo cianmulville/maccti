@@ -43,6 +43,13 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/contact">Contact</a>
                         </li>
+                        <?php 
+                            if(is_user_logged_in()) {
+                            ?>
+                        <li class="nav-item">
+                            <a class="user-menu nav-link" href="#">User</a>
+                        </li> <?php
+                        } ?>
                     </ul>
                 </div>
             </div>
