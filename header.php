@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?php bloginfo('name'); ?></title>
+    <title><?php the_title() . ' | ' . bloginfo('name'); ?></title>
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/favicon-16x16.png">
@@ -34,9 +34,20 @@
                         <!-- <li class="nav-item active">
                             <a class="nav-link" href="#">What You Learn</a>
                         </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link scroll" href="http://18.217.152.89/#courses">Courses</a>
-                        </li>
+                        <?php if(is_front_page()) { 
+                            ?>
+                            <li class="nav-item">
+                                <a class="nav-link scroll" href="#courses">Courses</a>
+                            </li>
+                        <?php
+                         } else {
+                             ?>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/">Home</a>
+                                </li>
+                             <?php
+                         } ?>
+                        
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="#">What You Need</a>
                         </li> -->
