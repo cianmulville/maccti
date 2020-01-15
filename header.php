@@ -45,9 +45,19 @@
                         </li>
                         <?php 
                             if(is_user_logged_in()) {
+                                $user = wp_get_current_user();
                             ?>
-                        <li class="nav-item">
-                            <a class="user-menu nav-link" href="#">User</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-user"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <h4>Hello, <?php echo $user->user_firstname; ?>!</h4>
+                            <a class="dropdown-item" href="/my-account/">My Account</a>
+                            <a class="dropdown-item" href="/eb-my-courses/">My Courses</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="/my-account/customer-logout/">Log out</a>
+                            </div>
                         </li> <?php
                         } ?>
                     </ul>
